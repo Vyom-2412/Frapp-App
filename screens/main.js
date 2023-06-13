@@ -21,6 +21,12 @@ import Filter1 from './filter1';
 import Filter2 from './filter2';
 import Filter3 from './filter3';
 import Filter4 from './filter4';
+import Filter5 from './filter4';
+import Filter6 from './filter4';
+import Filter7 from './filter4';
+import Filter8 from './filter4';
+import Filter9 from './filter4';
+import Filter10 from './filter4';
 
 let data = {
   regular: [
@@ -152,6 +158,18 @@ export default class Main extends React.Component {
             } else if (this.state.currentFilter === 'filter3') {
               return <Filter3 key={face.faceID} face={face} />;
             } else if (this.state.currentFilter === 'filter4') {
+              return <Filter4 key={face.faceID} face={face} />;
+            } else if (this.state.currentFilter === 'filter5') {
+              return <Filter4 key={face.faceID} face={face} />;
+            } else if (this.state.currentFilter === 'filter6') {
+              return <Filter4 key={face.faceID} face={face} />;
+            } else if (this.state.currentFilter === 'filter7') {
+              return <Filter4 key={face.faceID} face={face} />;
+            } else if (this.state.currentFilter === 'filter8') {
+              return <Filter4 key={face.faceID} face={face} />;
+            } else if (this.state.currentFilter === 'filter9') {
+              return <Filter4 key={face.faceID} face={face} />;
+            } else if (this.state.currentFilter === 'filter10') {
               return <Filter4 key={face.faceID} face={face} />;
             }
           })}
